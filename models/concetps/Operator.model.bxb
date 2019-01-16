@@ -1,0 +1,8 @@
+// 가능한 모든 Value들을 나열할 수 있을 경우 사용합니다. (https://bixbydevelopers.com/dev/docs/reference/type/enum)
+// (https://bixbydevelopers.com/dev/docs/dev-guide/developers/training.vocabulary)
+enum (Operator) {
+  symbol (plus)
+  symbol (subtract)
+  symbol (multiplication)
+  symbol (division)
+}

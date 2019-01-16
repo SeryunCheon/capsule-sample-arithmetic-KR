@@ -1,0 +1,33 @@
+action (ArithmeticOperation) {
+  type(Calculation)
+  collect {
+    input (leftOperand) {
+      type (LeftOperand)
+      min (Required) max (One)
+    }
+    
+    input (rightOperand) {
+      type (RightOperand)
+      min (Required) max (One)
+    }
+    
+    input(operator){
+      type(Operator)
+      min (Required) max (One) 
+    }
+  }
+  
+  output (Result){
+    throws{
+      unknown-error{
+        on-catch {
+          halt {
+            dialog {
+              template ("문제가 생겼네요. 다시 한번 말씀해주세요.")
+            }
+          }
+        }
+      }
+    }
+  }
+}

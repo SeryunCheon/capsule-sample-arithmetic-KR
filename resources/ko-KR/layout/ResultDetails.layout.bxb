@@ -1,0 +1,20 @@
+// Ref(https://bixbydevelopers.com/dev/docs/dev-guide/developers/building-views.layout-macros)
+// Ref(https://bixbydevelopers.com/dev/docs/reference/type/layout-macro-def.content)
+layout-macro-def (result_details) {
+  params {
+    param (info) {
+      type (Result)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-area {
+      slot2 {
+          content {
+            order (PrimarySecondary)
+            primary ("두가지 숫자를 #{value(info.operator)}한 결과는 #{value(info.result)} 입니다.")
+          }
+        }
+     }
+  }
+}
