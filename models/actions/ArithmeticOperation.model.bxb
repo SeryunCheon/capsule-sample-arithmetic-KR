@@ -1,4 +1,5 @@
 action (ArithmeticOperation) {
+  description (산술계산을 진행하는 action입니다)
   type(Calculation)
   collect {
     input (leftOperand) {
@@ -13,7 +14,7 @@ action (ArithmeticOperation) {
     
     input(operator){
       type(Operator)
-      min (Required) max (One) 
+      min (Required) max (One)
     }
   }
   
