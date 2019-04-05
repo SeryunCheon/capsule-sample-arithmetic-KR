@@ -1,0 +1,12 @@
+description {
+  displayName (사칙연산 계산기)
+  companyName (사칙연산 계산기)
+  iconUrl (/img/bixby_launcher.png)
+  description ("간단한 산술 계산기 캡슐입니다")
+  websiteUrl (https://github.com/bixbydevelopers/capsule-sample-arithmetic-KR)
+  termsUrl (https://github.com/bixbydevelopers/capsule-sample-arithmetic-KR/blob/master/LICENSE)
+  dispatch-name (사칙연산 계산기)
+  dispatch-aliases {
+    alias (계산기)
+  }
+}

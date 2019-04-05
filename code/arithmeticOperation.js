@@ -1,7 +1,8 @@
 module.exports.function = function arithmeticOperation (leftOperand, rightOperand, operator) {
-  var result = 0;
-  var name = '';
-  
+  const console = require('console');
+  let result = 0;
+  let name = '';
+
   operator = String(operator);
   
   if(operator === "plus"){
@@ -18,9 +19,10 @@ module.exports.function = function arithmeticOperation (leftOperand, rightOperan
     result = leftOperand / rightOperand;
   }
   
-  
-  return {
+  const result2 = {
     operator: name,
     result: result
   };
+  
+  return result2;
 }

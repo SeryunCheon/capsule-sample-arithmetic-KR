@@ -1,3 +1,4 @@
-// 나열 가능한 Value들 중 Training에 힌트가 될만한 Value들을 나열할 수 있을 경우 사용합니다. (https://bixbydevelopers.com/dev/docs/reference/type/name)
-// (https://bixbydevelopers.com/dev/docs/dev-guide/developers/training.vocabulary)
-name (OperatorName){}
+name (OperatorName){
+  description (나열 가능한 Value들 중 Training에 힌트가 될만한 Value들을 나열할 수 있을 경우 name을 사용합니다)
+  // (https://bixbydevelopers.com/dev/docs/reference/type/name)
+}
