@@ -1,2 +1,2 @@
-decimal (RightOperand) {
+integer (RightOperand) {
 }
