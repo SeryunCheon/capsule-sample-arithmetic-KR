@@ -19,6 +19,8 @@ module.exports.function = function arithmeticOperation (leftOperand, rightOperan
     result = leftOperand / rightOperand;
   }
   
+  console.log(operator);
+  
   const result2 = {
     operator: name,
     result: result
