@@ -20,11 +20,9 @@ module.exports.function = function arithmeticOperation (leftOperand, rightOperan
   }
   
   console.log(operator);
-  
-  const result2 = {
+   
+  return {
     operator: name,
     result: result
   };
-  
-  return result2;
 }
