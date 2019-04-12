@@ -1,5 +1,5 @@
 train (t-9gq4u88j567jhc6dou575bkxx) {
-  utterance ("[g:ArithmeticOperation] (16)[v:LeftOperand]에서 (7)[v:RightOperand]을 (빼줘)[v:Operator:subtract]")
-  plan (Y2BlkC5OzC0uzUvXS61IzC3ISXXOT0k11AtKLS7NKWHQwCrpWJRZkpGbWpKZ7F+QWpRYkpmfx6CAVaVPaloJWE1eCoMsVhUQE/KLGBSxuyMzPQNuAgsDIwMTAzOQZgCyIBAGkOQA)
-  last-modified (1545014816164)
+  utterance ("[g:Result] (16)[v:LeftOperand]에서 (7)[v:RightOperand]을 (빼줘)[v:Operator:subtract]")
+  plan (Y2BlkEytSMwtyEnVSyzKLMnITS3JTNYLSi0uzSlhUMMi5Qhn+hekFiWWZObnMchhUeeTmlYCVpGXwiCNRR6iO7+IQR6b/ZnpGXDdLAyMDEwMzECaAciCQBgAiUHlAA==)
+  last-modified (1555029213129)
 }
